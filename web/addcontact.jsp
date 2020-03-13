@@ -18,9 +18,9 @@
 <%
     int i=Contactdao.save(u);
     if(i>0){
-        response.sendRedirect("addcontact-success.jsp");
+        response.sendRedirect("/CrudJsp_war_exploded/addcontact-success.jsp");
     }else{
-        response.sendRedirect("addcontact-error.jsp");
+        response.sendRedirect("/CrudJsp_war_exploded/addcontact-error.jsp");
     }
 %>
 </body>
